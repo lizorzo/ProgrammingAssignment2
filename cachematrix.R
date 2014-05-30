@@ -1,8 +1,7 @@
 ## makeCacheMatrix() and cacheSolve() functions are used to caching the inverse of a given matrix.
 
 ## SAMPLE RUN
-# > matrix <- stats::rnorm(16)
-# > dim(matrix) <- c(4,4)
+# > matrix <- rbind(c(1, -1/4), c(-1/4, 1))
 # > m = makeCacheMatrix(matrix)
 # > m$getMatrix()
 # > cacheSolve(m)
