@@ -5,7 +5,7 @@
 # > m = makeCacheMatrix(matrix)
 # > m$getMatrix()
 # > cacheSolve(m)
-## Second time, will get cached data
+## Second time, will get cached data (:
 # > cacheSolve(m) 
 
 ## makeCacheMatrix() returns a list of getters and setters:
